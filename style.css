@@ -210,6 +210,7 @@ body {
     height: 100%;
     object-fit: cover;
     transition: 0.7s;
+    cursor: pointer;
 }
 .Model-car .car-pic img:hover {
     transform: scale(115%,115%);
@@ -312,8 +313,8 @@ but:hover {
     float: left;
 }
 .Car-Model-Img img {
-    width: 80%;
-    transform: translateY(150px);
+    width: 125%;
+    transform: translate(-250px,170px);
     object-fit: contain;
 }
 .button {
